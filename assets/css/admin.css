@@ -1,0 +1,52 @@
+.clear{
+    clear: both;
+}
+.meata_options{
+
+}
+.meata_options ul{
+    border: none;
+    width: 100%;
+}
+.meata_options ul li.full{
+    width: 100%;
+    margin-right: 0;  
+}
+.meata_options ul li{
+    width: 48%;
+    float: left;
+    margin-bottom: 15px;
+}
+.meata_options ul li:nth-child(odd){
+    margin-right: 4%;  
+}
+.meata_options label{
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #575757;
+}
+.meata_options input[type="text"], .meata_options input[type="email"], .meata_options input[type="tel"], .meata_options textarea {
+    width: 100%;
+    float: left;
+    padding: 6px;
+    border: #d1d1d1 solid 1px;
+    background: #FFF;
+}
+.meata_options h2{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    padding: 8px 0px !important;
+}
+.ui-sortable tr:hover {
+	cursor: move;
+}
+.ui-sortable tr.alternate {
+	background-color: #F9F9F9;	
+}
+.ui-sortable tr.ui-sortable-helper {
+	background-color: #F9F9F9;
+	border-top: 1px solid #DFDFDF;
+}
+ 
